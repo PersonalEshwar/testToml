@@ -1,5 +1,5 @@
 lastUpdated = "2019-02-08 21:06:07"
-serviceName = "access-control-service"
+serviceName = "my-file"
 version = "5.0.6"
 
 [[apps]]
@@ -17,11 +17,3 @@ version = "5.0.6"
   [[apps.packages]]
     name = "eshwar-service-5.0.5-SNAPSHOT-exec.jar"
     type = "artifact"
-
-[[apps]]
-  appName = "predix-acs"
-  pipeline = "access-control-service/5.0.5/Jenkinsfile_DeployPPC-5.0.5"
-
-  [[apps.packages]]
-    name = "eshwar"
-    type = "developer"
