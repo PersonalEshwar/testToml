@@ -1,4 +1,4 @@
-lastUpdated = "2019-02-08 21:12:22"
+lastUpdated = "2019-02-08 21:13:19"
 serviceName = "my-file"
 version = "5.0.8"
 
@@ -17,6 +17,14 @@ version = "5.0.8"
   [[apps.packages]]
     name = "eshwar-service-5.0.5-SNAPSHOT-exec.jar"
     type = "artifact"
+
+  [[apps.packages]]
+    name = "testPackageName1"
+    type = "testPackageType1"
+
+[[apps]]
+  appName = "predix-acs-new"
+  pipeline = "testFilePath1"
 
   [[apps.packages]]
     name = "testPackageName1"
