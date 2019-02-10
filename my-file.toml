@@ -1,6 +1,6 @@
-lastUpdated = "2019-02-10 00:39:03"
+lastUpdated = "2019-02-10 00:40:58"
 serviceName = "my-file"
-version = "5.0.10"
+version = "5.0.9"
 
 [[apps]]
   appName = "predix-acs"
@@ -14,10 +14,6 @@ version = "5.0.10"
     name = "acs-service-5.0.5-SNAPSHOT.jar"
     type = "artifact"
 
-[[apps]]
-  appName = "predix-acs-n"
-  pipeline = "testFilePath2"
-
   [[apps.packages]]
-    name = "testPackageName2"
-    type = "testPackageType2"
+    name = "testPackageName5"
+    type = "testPackageType5"
