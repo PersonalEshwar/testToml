@@ -1,6 +1,6 @@
-lastUpdated = "2019-02-10 00:40:58"
+lastUpdated = "2019-02-10 11:34:15"
 serviceName = "my-file"
-version = "5.0.9"
+version = "5.0.10"
 
 [[apps]]
   appName = "predix-acs"
@@ -17,3 +17,7 @@ version = "5.0.9"
   [[apps.packages]]
     name = "testPackageName5"
     type = "testPackageType5"
+
+  [[apps.packages]]
+    name = "testPackageName6"
+    type = "testPackageType6"
