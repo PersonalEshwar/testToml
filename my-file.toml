@@ -1,31 +1,15 @@
-lastUpdated = "2019-02-10 11:35:10"
+lastUpdated = "2019-02-10 11:36:01"
 serviceName = "my-file"
-version = "5.0.11"
-
-[[apps]]
-  appName = "predix-acs"
-  pipeline = "access-control-service/5.0.5/Jenkinsfile_DeployPPC-5.0.5"
-
-  [[apps.packages]]
-    name = "ppc-acs-deploy-5.0.5-SNAPSHOT.tgz"
-    type = "artifact"
-
-  [[apps.packages]]
-    name = "acs-service-5.0.5-SNAPSHOT.jar"
-    type = "artifact"
-
-  [[apps.packages]]
-    name = "testPackageName5"
-    type = "testPackageType5"
-
-  [[apps.packages]]
-    name = "testPackageName6"
-    type = "testPackageType6"
+version = "5.0.12"
 
 [[apps]]
   appName = "predix-acs1"
-  pipeline = "testFilePath6"
+  pipeline = "access-control-service/5.0.5/Jenkinsfile_DeployPPC-5.0.5"
 
   [[apps.packages]]
     name = "testPackageName6"
     type = "testPackageType6"
+
+  [[apps.packages]]
+    name = "testPackageName7"
+    type = "testPackageType7"
