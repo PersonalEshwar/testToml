@@ -1,11 +1,15 @@
-lastUpdated = "2019-02-10 20:21:19"
+lastUpdated = "2019-02-10 23:16:18"
 serviceName = "my-file"
 version = "5.0.15"
 
 [[apps]]
   appName = "predix-acs1"
-  pipeline = "testFilePath11"
+  pipeline = "access-control-service/5.0.5/Jenkinsfile_DeployPPC-5.0.5"
 
   [[apps.packages]]
     name = "testPackageName11"
     type = "testPackageType11"
+
+  [[apps.packages]]
+    name = "testPackageName12"
+    type = "testPackageType12"
