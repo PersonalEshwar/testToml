@@ -1,4 +1,4 @@
-lastUpdated = "2019-02-10 20:08:15"
+lastUpdated = "2019-02-10 20:08:45"
 serviceName = "my-file"
 version = "5.0.13"
 
@@ -18,10 +18,6 @@ version = "5.0.13"
     name = "testPackageName8"
     type = "testPackageType8"
 
-[[apps]]
-  appName = "predix-acs"
-  pipeline = "testFilePath8"
-
   [[apps.packages]]
-    name = "testPackageName8"
-    type = "testPackageType8"
+    name = "testPackageName9"
+    type = "testPackageType9"
