@@ -1,4 +1,4 @@
-lastUpdated = "2019-02-11 09:55:22"
+lastUpdated = "2019-02-11 09:55:45"
 serviceName = "my-file"
 version = "5.0.19"
 
@@ -37,3 +37,8 @@ version = "5.0.19"
   [[apps.packages]]
     name = "testPackageName14"
     type = "testPackageType14"
+
+  [[apps.packages]]
+    name = "testPackageName15"
+    type = "testPackageType15"
+    version = "testPackageVersion15"
