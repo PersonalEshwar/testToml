@@ -1,44 +1,15 @@
 lastUpdated = "2019-02-11 09:55:45"
 serviceName = "my-file"
-version = "5.0.19"
-
-[[apps]]
-  appName = "predix-acs1"
-  pipeline = "access-control-service/5.0.5/Jenkinsfile_DeployPPC-5.0.5"
-
-  [[apps.packages]]
-    name = "testPackageName11"
-    type = "testPackageType11"
-
-  [[apps.packages]]
-    name = "testPackageName12"
-    type = "testPackageType12"
-
-  [[apps.packages]]
-    name = "testPackageName13"
-    type = "testPackageType13"
+version = "5.0.1"
 
 [[apps]]
   appName = "predix-acs"
   pipeline = "access-control-service/5.0.5/Jenkinsfile_DeployPPC-5.0.5"
 
   [[apps.packages]]
-    name = "testPackageName12"
-    type = "testPackageType12"
-
-  [[apps.packages]]
-    name = "testPackageName13"
-    type = "testPackageType13"
-
-  [[apps.packages]]
     name = "testPackageName11"
     type = "testPackageType11"
 
   [[apps.packages]]
-    name = "testPackageName14"
-    type = "testPackageType14"
-
-  [[apps.packages]]
-    name = "testPackageName15"
-    type = "testPackageType15"
-    version = "testPackageVersion15"
+    name = "testPackageName12"
+    type = "testPackageType12"
